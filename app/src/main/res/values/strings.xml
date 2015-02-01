@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 親スピナー -->
+    <string-array name="pokemon_type">
+        <item>ほのお</item>
+        <item>でんき</item>
+        <item>みず</item>
+    </string-array>
+    <string name="app_name">PokemonSimulator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
