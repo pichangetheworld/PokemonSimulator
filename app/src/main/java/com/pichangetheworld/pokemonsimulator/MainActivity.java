@@ -5,6 +5,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageView;
 import android.widget.Spinner;
 
 
@@ -30,6 +31,8 @@ public class MainActivity extends ActionBarActivity {
     Spinner defType1Selector;
     Spinner defType2Selector;
 
+    ImageView arrow;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +41,7 @@ public class MainActivity extends ActionBarActivity {
         atkTypeSelector = (Spinner) findViewById(R.id.spinner3);
         defType1Selector = (Spinner) findViewById(R.id.spinner);
         defType2Selector = (Spinner) findViewById(R.id.spinner2);
+        arrow = (ImageView) findViewById(R.id.arrow);
 
         atkTypeSelector.setOnItemSelectedListener(onSelectionChanged);
         defType1Selector.setOnItemSelectedListener(onSelectionChanged);
