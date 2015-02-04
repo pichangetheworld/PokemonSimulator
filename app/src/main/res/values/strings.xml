@@ -20,6 +20,27 @@
         <item>ドラゴン</item>
         <item>あく</item>
     </string-array>
+    <!-- 親スピナー2 -->
+    <string-array name="pokemon_type2">
+        <item> </item>
+        <item>ノーマル</item>
+        <item>かくとう</item>
+        <item>ひこう</item>
+        <item>どく</item>
+        <item>じめん</item>
+        <item>いわ</item>
+        <item>むし</item>
+        <item>ゴースト</item>
+        <item>はがね</item>
+        <item>ほのお</item>
+        <item>みず</item>
+        <item>くさ</item>
+        <item>でんき</item>
+        <item>エスパー</item>
+        <item>こおり</item>
+        <item>ドラゴン</item>
+        <item>あく</item>
+    </string-array>
     <string name="app_name">PokemonSimulator</string>
     <string name="hello_world">Hello world!</string>
     <string name="type_select">________________________タイプのポケモンがとびだしてきた！</string>

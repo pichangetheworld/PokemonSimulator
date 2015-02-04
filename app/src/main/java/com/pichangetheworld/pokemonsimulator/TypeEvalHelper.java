@@ -28,6 +28,7 @@ public class TypeEvalHelper {
     };
 
     public static double getMultiplier(int atkType, int defType1, int defType2) {
-        return MULTIPLIERS[atkType][defType1] * MULTIPLIERS[atkType][defType2];
+        return MULTIPLIERS[atkType][defType1] *
+                (defType2 == 0 ? 1 : MULTIPLIERS[atkType][defType2-1]);
     }
 }
