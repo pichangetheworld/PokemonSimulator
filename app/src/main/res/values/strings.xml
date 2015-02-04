@@ -8,6 +8,5 @@
     </string-array>
     <string name="app_name">PokemonSimulator</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
     <string name="type_select">________________________タイプのポケモンがとびだしてきた！</string>
 </resources>
