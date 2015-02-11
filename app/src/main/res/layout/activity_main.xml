@@ -76,7 +76,7 @@
         android:layout_width="200dp"
         android:layout_height="100dp"
         android:id="@+id/arrow"
-        android:src="@drawable/arrow4x"
+        android:src="@drawable/damage1"
         android:layout_below="@+id/imageView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -85,23 +85,9 @@
         android:layout_width="150dp"
         android:layout_height="130dp"
         android:id="@+id/imageView3"
-        android:src="@drawable/bomb"
+        android:src="@drawable/x1"
         android:layout_below="@+id/imageView"
         android:layout_toRightOf="@+id/arrow"
         android:layout_toEndOf="@+id/arrow" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="1x"
-        android:id="@+id/textView3"
-        android:textSize="50dp"
-        android:layout_alignBottom="@+id/arrow"
-        android:layout_alignLeft="@+id/imageView3"
-        android:layout_alignStart="@+id/imageView3"
-        android:layout_marginLeft="47dp"
-        android:layout_marginStart="47dp" />
-
 
 </RelativeLayout>
