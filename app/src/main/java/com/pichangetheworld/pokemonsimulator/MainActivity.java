@@ -32,12 +32,12 @@ public class MainActivity extends ActionBarActivity {
             };
 
     final int[] ARROW_IDS = {
-            R.drawable.a0damage,
-            R.drawable.a0_25damage,
-            R.drawable.a0_5damage,
-            R.drawable.a1damage,
-            R.drawable.a2damage,
-            R.drawable.a4damage
+            R.drawable.b0damage,
+            R.drawable.b0_25damage,
+            R.drawable.b0_5damage,
+            R.drawable.b1damage,
+            R.drawable.b2damage,
+            R.drawable.b4damage
     };
 
     final int[] MULTIPLIER_IDS = {
