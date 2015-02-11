@@ -71,11 +71,11 @@
         android:layout_toEndOf="@+id/spinner2" />
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="100dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:id="@+id/arrow"
         android:src="@drawable/a1damage"
-        android:layout_below="@+id/imageView"
+        android:layout_above="@id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -84,8 +84,8 @@
         android:layout_height="130dp"
         android:id="@+id/multiplier"
         android:src="@drawable/a1x"
-        android:layout_below="@+id/imageView"
-        android:layout_toRightOf="@+id/arrow"
-        android:layout_toEndOf="@+id/arrow" />
+        android:layout_above="@id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
