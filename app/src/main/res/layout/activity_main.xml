@@ -70,22 +70,22 @@
         android:layout_toRightOf="@+id/spinner2"
         android:layout_toEndOf="@+id/spinner2" />
 
-    <!--<ImageView-->
-        <!--android:layout_width="200dp"-->
-        <!--android:layout_height="100dp"-->
-        <!--android:id="@+id/arrow"-->
-        <!--android:src="@drawable/damage1"-->
-        <!--android:layout_below="@+id/imageView"-->
-        <!--android:layout_alignParentLeft="true"-->
-        <!--android:layout_alignParentStart="true" />-->
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/arrow"
+        android:src="@drawable/a1damage"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-    <!--<ImageView-->
-        <!--android:layout_width="150dp"-->
-        <!--android:layout_height="130dp"-->
-        <!--android:id="@+id/multiplier"-->
-        <!--android:src="@drawable/x1"-->
-        <!--android:layout_below="@+id/imageView"-->
-        <!--android:layout_toRightOf="@+id/arrow"-->
-        <!--android:layout_toEndOf="@+id/arrow" />-->
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:id="@+id/multiplier"
+        android:src="@drawable/a1x"
+        android:layout_below="@+id/imageView"
+        android:layout_toRightOf="@+id/arrow"
+        android:layout_toEndOf="@+id/arrow" />
 
 </RelativeLayout>

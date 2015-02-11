@@ -32,21 +32,21 @@ public class MainActivity extends ActionBarActivity {
             };
 
     final int[] ARROW_IDS = {
-            R.drawable.damage0,
-            R.drawable.damage025,
-            R.drawable.damage05,
-            R.drawable.damage1,
-            R.drawable.damage2,
-            R.drawable.damage4
+            R.drawable.a0damage,
+            R.drawable.a0_25damage,
+            R.drawable.a0_5damage,
+            R.drawable.a1damage,
+            R.drawable.a2damage,
+            R.drawable.a4damage
     };
 
     final int[] MULTIPLIER_IDS = {
-            R.drawable.x0,
-            R.drawable.x025,
-            R.drawable.x05,
-            R.drawable.x1,
-            R.drawable.x2,
-            R.drawable.x4
+            R.drawable.a0x,
+            R.drawable.a0_25x,
+            R.drawable.a0_5x,
+            R.drawable.a1x,
+            R.drawable.a2x,
+            R.drawable.a4x
     };
 
     Spinner atkTypeSelector;
@@ -64,8 +64,8 @@ public class MainActivity extends ActionBarActivity {
         atkTypeSelector = (Spinner) findViewById(R.id.spinner3);
         defType1Selector = (Spinner) findViewById(R.id.spinner);
         defType2Selector = (Spinner) findViewById(R.id.spinner2);
-//        arrow = (ImageView) findViewById(R.id.arrow);
-//        multiplier = (ImageView) findViewById(R.id.multiplier);
+        arrow = (ImageView) findViewById(R.id.arrow);
+        multiplier = (ImageView) findViewById(R.id.multiplier);
 
         atkTypeSelector.setOnItemSelectedListener(onSelectionChanged);
         defType1Selector.setOnItemSelectedListener(onSelectionChanged);
