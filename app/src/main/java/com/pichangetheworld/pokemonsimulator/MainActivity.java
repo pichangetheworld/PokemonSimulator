@@ -86,7 +86,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     private void updateResult(int i) {
-//        arrow.setImageDrawable(getResources().getDrawable(ARROW_IDS[i]));
-//        multiplier.setImageDrawable(getResources().getDrawable(MULTIPLIER_IDS[i]));
+        arrow.setImageDrawable(getResources().getDrawable(ARROW_IDS[i]));
+        multiplier.setImageDrawable(getResources().getDrawable(MULTIPLIER_IDS[i]));
     }
 }
